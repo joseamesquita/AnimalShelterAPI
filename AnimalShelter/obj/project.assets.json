@@ -12156,11 +12156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/JoseAmesquita/Desktop/AnimalShelter/AnimalShelter/AnimalShelter.csproj",
+      "projectUniqueName": "/Users/JoseAmesquita/Desktop/AnimalShelterAPI/AnimalShelter/AnimalShelter.csproj",
       "projectName": "AnimalShelter",
-      "projectPath": "/Users/JoseAmesquita/Desktop/AnimalShelter/AnimalShelter/AnimalShelter.csproj",
+      "projectPath": "/Users/JoseAmesquita/Desktop/AnimalShelterAPI/AnimalShelter/AnimalShelter.csproj",
       "packagesPath": "/Users/JoseAmesquita/.nuget/packages/",
-      "outputPath": "/Users/JoseAmesquita/Desktop/AnimalShelter/AnimalShelter/obj/",
+      "outputPath": "/Users/JoseAmesquita/Desktop/AnimalShelterAPI/AnimalShelter/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
