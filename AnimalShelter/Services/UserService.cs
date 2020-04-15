@@ -9,7 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 using AnimalShelter.Models;
 using AnimalShelter.Helpers;
 
-namespace WebApi.Services
+namespace AnimalShelter.Services
 {
   public interface IUserService
   {

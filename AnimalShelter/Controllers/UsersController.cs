@@ -1,13 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
-using AnimalShelter.Models;
 using AnimalShelter.Services;
+using AnimalShelter.Models;
 
 namespace AnimalShelter.Controllers
 {
   [Authorize]
   [ApiController]
-  [Route("[controller")]
+  [Route("[controller]")]
   public class UsersController : ControllerBase
   {
     private IUserService _userService;
@@ -24,7 +24,8 @@ namespace AnimalShelter.Controllers
       var user = _userService.Authenticate(userParam.UserName, userParam.Password);
 
       if (user == null)
-        return BadRequest(new object { message = "Username or password is incorrect" });
+        return BadRequest(new { message = "Username or password is incorrect" });
+
       return Ok(user);
     }
 
