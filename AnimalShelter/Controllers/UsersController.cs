@@ -21,7 +21,7 @@ namespace AnimalShelter.Controllers
     [HttpPost("authenticate")]
     public IActionResult Authenticate([FromBody]User userParam)
     {
-      var user = _userService.Authenticate(userParam.Username, userParam.Password);
+      var user = _userService.Authenticate(userParam.UserName, userParam.Password);
 
       if (user == null)
         return BadRequest(new object { message = "Username or password is incorrect" });
