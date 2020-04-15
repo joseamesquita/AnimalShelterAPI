@@ -2,14 +2,16 @@
 using AnimalShelter.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AnimalShelter.Migrations
 {
     [DbContext(typeof(AnimalShelterContext))]
-    partial class AnimalShelterContextModelSnapshot : ModelSnapshot
+    [Migration("20200415090953_SeedData")]
+    partial class SeedData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -39,7 +41,7 @@ namespace AnimalShelter.Migrations
                             AnimalId = 1,
                             Age = 5,
                             Gender = "Male",
-                            Name = "Maxie",
+                            Name = "Max",
                             Species = "German-Shepherd"
                         },
                         new
@@ -47,7 +49,7 @@ namespace AnimalShelter.Migrations
                             AnimalId = 2,
                             Age = 1,
                             Gender = "Female",
-                            Name = "Anna",
+                            Name = "Lucy",
                             Species = "Showshoe"
                         },
                         new
