@@ -45,6 +45,7 @@ _Please reach out to me if you have any questions or any concerns with this appl
 * _.NET Core 2.2_ 
 * _Enitity Core Framework_
 * _MySQL_
+* _JWT Authentication_
 
 ### License
 
