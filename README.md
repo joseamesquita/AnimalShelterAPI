@@ -6,7 +6,7 @@
 
 ## Description
 
-_This C# web application was designed to help a local Animal Shelter that will list available cats and dogs to the community by building an API (Application Programming Interface). The purpose of this application is to demonstrate full CRUD functionality, JWT Authentication with complete documentation of API endpoints. This application will allow the user to create an account through the website and be able to login into their account to navigate through the Animal Shelter site. Hope you enjoy!_
+_This C# web application is design to help a local Animal Shelter that will list available cats and dogs to the community by building an API (Application Programming Interface). The purpose of this application is to demonstrate full CRUD functionality, JWT Authentication with complete documentation of API endpoints. This application will allow the user to create an account through the website and be able to login into their account to navigate through the Animal Shelter site. Hope you enjoy!_
 
 ## Setup/Installation Requirements
 
