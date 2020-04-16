@@ -29,6 +29,16 @@ _This C# web application is design to help a local Animal Shelter that will list
 * A user will be able to edit animal(s) from the Animals database (API)
 * A user will be able to delete animal(s) from the Animals database (API)
 
+## API Endpoints 
+
+Animals 
+
+* GET /api/animals
+* POST /api/animals
+* GET /api/animals/{id}
+* PUT /api/animals/{id}
+* DELETE /api/animals/{id}
+
 
 ## Known Bugs
 
