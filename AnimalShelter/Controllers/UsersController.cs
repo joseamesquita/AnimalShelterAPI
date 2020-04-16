@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using AnimalShelter.Services;
 using AnimalShelter.Models;
+using System.Linq;
 
 namespace AnimalShelter.Controllers
 {
