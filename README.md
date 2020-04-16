@@ -24,8 +24,10 @@ _This C# web application is design to help a local Animal Shelter that will list
 
 ## Specs
 
-Behavior | Input | Output
---- | --- | ---
+* A user will be able to view a full list of animal(s) in the Animal Shelter from the Animal database (API)
+* A user will be able to add new animal(s) to the Animals database (API)
+* A user will be able to edit animal(s) from the Animals database (API)
+* A user will be able to delete animal(s) from the Animals database (API)
 
 
 ## Known Bugs
