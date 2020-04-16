@@ -57,12 +57,26 @@ Animals
 1. visit MySQL Community Downloads and download MySQL Workbench for macOS: https://dev.mysql.com/downloads/workbench/
 2. when MySQL Workbench is installed, open MySQL Workbench application and insert local server 3306 and enter your password from above
 
+#### Installing Postman 
+
+1. visit Postman for macOS: https://www.postman.com/downloads/
+2. select download and run the installer 
+
 #### Accessing the Animals Database via the Terminal on macOS
 
 1. type 'mysql -uroot -p{'your password'}
 2. type 'show databases;'
 3. type 'use animal_shelter;'
 4. type 'select * from animals;'
+
+## Autherntication Exploration 
+
+1. open the Postman application and make a POST request by typing 'http://localhost:5000/users/authenticate'
+2. in the Body tab of Postman, select raw and JSON, enter 'userName: test' and 'Password: test" inside the Body
+3. select 'Send' to send the POST request
+4. select the Authorization tab and copy the token string from the Body 
+5. change the type to Bearer Token and paste the token string inside the token input 
+6. you should now have access to the data from API endpoints 
 
 ## Known Bugs
 
@@ -77,11 +91,11 @@ _Please reach out to me if you have any questions or any concerns with this appl
 * C#
 * _Git_
 * _VSCode_
-* _MVC_
 * _.NET Core 2.2_ 
 * _Enitity Core Framework_
-* _MySQL_
+* _MySQL & MySQLWorkbench_
 * _JWT Authentication_
+* _dotnet_
 
 ### License
 
